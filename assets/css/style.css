@@ -1,0 +1,54 @@
+body{
+    background-color:lightgreen;
+}
+
+.jumbotron{
+color:white;   
+}
+
+.imgbg{
+background-image: url("../images/bg.png");
+background-size: 600px 300px;
+background-repeat:no-repeat;
+background-position:center;
+
+}
+
+#targetScore{
+    color:red;
+    font-size:24px;
+    font-style: italic;
+    font-weight:bold;
+
+
+
+
+}
+#yourScore{
+    color:red;
+    font-size:24px;
+    font-style: italic;
+    font-weight:bold;
+
+}
+
+#winCount{
+    color:red;
+    font-size:24px;
+    font-style: italic;
+    font-weight:bold;
+}
+
+#lossCount{
+    color:red;
+    font-size:24px;
+    font-style: italic;
+    font-weight:bold;
+}
+
+#bricks{
+    background-image: url("../images/Bricks.jpg");
+    
+}
+
+

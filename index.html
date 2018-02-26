@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mario Character Collector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+   
+</head>
+<body>
+    <!--Jumbotron  -->
+    <div class="container">
+            <div class="jumbotron imgbg">
+                    <div class="container">
+                        <h1 class="text-center"><strong>Character Collector</strong></h1>
+                    
+                    </div>
+                </div>
+
+    <!-- Instructions -->
+    <div class="row">
+
+        <!-- Instructions Container -->
+        <div class="col-lg-12">
+                
+                <div class="panel panel-primary" >
+                        <div class="panel-heading">
+                          <h3 class="panel-title text-center">Instructions</h3>
+                        </div>
+                        <div class="panel-body">
+                          <p><small>Instructions: Select from Mario,Luigi,Peach, and Daisy. Each character has a random number associated with them. Find out by clicking on them! The goal is to reach the target score, if you go over you lose! Hint****Check Console to see character values. </small></p>
+                        </div>
+                      </div>
+        </div>
+     </div>
+
+     <div class="row">
+<!-- Scores and characters -->
+<div class="col-lg-3">
+
+        <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3 class="panel-title text-center">Target Score</h3>
+                </div>
+                <div class="panel-body">
+                  <h3 class="text-center" id="targetScore"></h3>
+                </div>
+              </div>
+    </div>
+
+<!-- Your score -->
+<div class="col-lg-3">
+
+        <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3 class="panel-title text-center">Your score</h3>
+                </div>
+                <div class="panel-body">
+                  <h3 class="text-center"id="yourScore"></h3>
+                </div>
+              </div>
+</div>
+     <!--Mario Characters  -->
+<div class="col-lg-6">
+
+        <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3 class="panel-title text-center">Select your Character!</h3>
+                </div>
+                <div class="panel-body text-center">
+                <img src="assets/images/mario.png" alt="mario" width="120" height="120" id="mario">
+                <img src="assets/images/luigi.png" alt="luigi" width="120" height="120" id="luigi">
+                <img src="assets/images/peach.png" alt="peach" width="120" height="120" id="peach">
+                <img src="assets/images/daisy.png" alt="daisy" width="120" height="120" id="daisy">
+                  <!-- Content  -->
+                </div>
+              </div>
+</div>
+
+<!-- counters row -->
+
+<div class="row">
+
+  <div class="col-lg-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title text-center">Win Score</h3>
+            </div>
+            <div class="panel-body">
+              <h3 class="text-center" id="winCount"></h3>
+            </div>
+          </div>
+
+  </div>
+
+  <div class="col-lg-6">
+      <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">Loss Count</h3>
+          </div>
+          <div class="panel-body">
+            <h3 class="text-center" id="lossCount"></h3>
+          </div>
+        </div>
+    
+    </div>
+</div>
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Jquery reference -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <!-- Main Game Logic  -->
+    <script src=assets/javascript/logic.js></script>
+</body>
+</html>
