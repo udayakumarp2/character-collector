@@ -6,3 +6,6 @@
 
 ![target](https://user-images.githubusercontent.com/31020465/42907351-8168d642-8aab-11e8-83a7-91208eb964a9.PNG)
 
+This is the link: 
+https://udayakumarp2.github.io/character-collector/
+
